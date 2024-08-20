@@ -21,7 +21,7 @@ def escribir_archivo_datos(N, num_iteraciones):
             archivo.write(f"{producto_punto}\n")
 
 # Definir el tamaño del vector y el número de iteraciones
-N = 1000  # Puedes cambiar este valor según lo necesites
+N = 5  # Puedes cambiar este valor según lo necesites
 num_iteraciones = 5
 
 # Generar y escribir los datos en el archivo
