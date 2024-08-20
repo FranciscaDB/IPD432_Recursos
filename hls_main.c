@@ -12,7 +12,7 @@ void hls_pp(data_t *pp, data_t x[N], data_t y[N])
 #pragma HLS ARRAY_PARTITION variable=y type=cyclic factor=2
 
 	data_t res[N];
-	data_t r;
+	data_t r=0;
 	MainLoop: for (int i = 0; i < N; ++i)
 	{
 		#pragma HLS UNROLL
