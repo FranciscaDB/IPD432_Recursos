@@ -4,7 +4,7 @@
 #define HLS_CONFIG
 
 /* Vector length */
-#define N 3
+#define N 5
 
 /* Data type */
 typedef float data_t;
